@@ -1,0 +1,36 @@
+{
+  "name": "url-match",
+  "version": "0.1.0",
+  "description": "url-match is a pattern matching for urls paths and query parameters",
+  "keywords": ["url", "match", "pattern", "route", "regex", "match", "path", "query", "parameter"],
+  "homepage": "http://github.com/polmiro/url-match",
+  "author": {
+    "name": "Pol Miro",
+    "url": "http://github.com/polmiro"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "http://github.com/polmiro/url-match/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/polmiro/url-match.git"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "git://github.com/polmiro/url-match/LICENSE"
+  },
+  "engines": {
+    "node": ">=0.8.5"
+  },
+  "dependencies": {
+    "underscore": "1.6.0"
+  },
+  "devDependencies": {
+    "nodeunit": "0.8.6"
+  },
+  "main": "src/url-match",
+  "scripts": {
+    "test": "node_modules/nodeunit/bin/nodeunit test/*.js"
+  }
+}

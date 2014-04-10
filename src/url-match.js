@@ -102,7 +102,7 @@ Pattern =  {
     }
 
     // return (Backbone.Router.namedParameters || route.namedParameters) ? [namedParams] : params;
-    return [namedParams, queryParams];
+    return { namedParams: namedParams, queryParams: queryParams};
   },
 
   /**
